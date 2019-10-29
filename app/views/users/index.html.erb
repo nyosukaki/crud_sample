@@ -1,7 +1,7 @@
-<%= link_to '投稿一覧へ', '/users/new' %>
-<% @users.each do |user|  %>
- <p>
+<%= link_to "投稿画面へ", "/users/new" %>
+<% @users.each do |user| %>
+  <p>
     <%= user.name %>
     <%= user.age %>
- </p> 
- <% end %>
+  </p>
+<% end %>
