@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   get 'users' => 'users#index'
   get 'users/new' => 'users#new'
   post 'users' => 'users#create'
-  delete 'users' => 'users#destroy'
+  delete 'users/:id' => 'users#destroy'
 end
