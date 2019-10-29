@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  get 'user/new', to: 'users#new'
-  post 'user/create', to: 'user/create'
+  get 'users/new', 'users#new'
+  post 'users/create',  'users/create'
 end
